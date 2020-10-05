@@ -41,7 +41,7 @@ text("Surviving Time: "+survival,280,50);
 if(gameState==PLAY){
 
 survival=survival+Math.round(getFrameRate()/60);
-if(ground.x<200){
+if(ground.x<700){
  ground.x=500;
 }
 if(keyDown("space") && monkey.y>150){

@@ -19,7 +19,7 @@ function preload(){
 
 
 function setup() {
-createCanvas(900,400);  
+createCanvas(500,400);  
 FoodGroup=new Group();
 obstacleGroup=new Group();
 monkey=createSprite(50,190,20,20);

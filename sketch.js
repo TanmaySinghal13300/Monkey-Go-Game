@@ -19,7 +19,7 @@ function preload(){
 
 
 function setup() {
-createCanvas(500,400);  
+createCanvas(900,400);  
 FoodGroup=new Group();
 obstacleGroup=new Group();
 monkey=createSprite(50,190,20,20);
@@ -41,7 +41,7 @@ text("Surviving Time: "+survival,280,50);
 if(gameState==PLAY){
 
 survival=survival+Math.round(getFrameRate()/60);
-if(ground.x<700){
+if(ground.x<800){
  ground.x=500;
 }
 if(keyDown("space") && monkey.y>150){
